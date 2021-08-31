@@ -1,0 +1,12 @@
+<div>
+  <h1>{{ heading }}</h1>
+  <h2>Query Information:</h2>
+  <ul>
+    <li>start_date: {{ start_date }}</li>
+    <li>end_date: {{ end_date }}</li>
+    <li>interval in minutes: {{ interval }}</li>
+    <li>Time Period Price Mean {{ mean }}</li>
+    <li>Time Period Price Median {{ median }}</li>
+  </ul>
+  {{ chart|safe }}
+</div>
